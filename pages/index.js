@@ -14,8 +14,6 @@ export default function Home() {
   const [users, setUsers] = useState([]);
 
   const genUsers = async () => {
-    console.log("genuser running");
-    console.log(genAmount);
     if (genAmount < 1) {
       alert("invalid number");
       return;
